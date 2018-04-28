@@ -34,6 +34,7 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder>{
         holder.brand.setText(res.getStringArray(R.array.brands)[c.getBrand()]);
         holder.model.setText(res.getStringArray(R.array.years)[c.getModel()]);
         holder.price.setText(c.getPrice());
+        holder.color.setText(res.getStringArray(R.array.colors)[c.getColor()]);
     }
 
     @Override
@@ -47,6 +48,7 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder>{
         private TextView brand;
         private TextView model;
         private TextView price;
+        private TextView color;
         private View v;
         public CarViewHolder(View itemView) {
             super(itemView);
@@ -56,6 +58,7 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder>{
             brand = v.findViewById(R.id.lblBrand);
             model = v.findViewById(R.id.lblModel);
             price = v.findViewById(R.id.lblPrice);
+            color = v.findViewById(R.id.lblColor);
         }
     }
 }

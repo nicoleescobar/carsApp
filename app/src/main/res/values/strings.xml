@@ -73,4 +73,7 @@
         <item>@string/mercedes</item>
         <item>@string/ferrari</item>
     </array>
+
+
+    <string name="errorMessage">Valor Invalido</string>
 </resources>

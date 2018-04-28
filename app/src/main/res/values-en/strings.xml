@@ -15,4 +15,6 @@
     <string name="blue">Blue</string>
     <string name="red">Red</string>
     <string name="yellow">Yellow</string>
+    <string name="errorMessage">Invalid Value</string>
+    <string name="carsListOption">Cars List</string>
 </resources>

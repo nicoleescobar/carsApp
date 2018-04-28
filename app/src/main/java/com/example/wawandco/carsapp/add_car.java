@@ -65,16 +65,26 @@ public class add_car extends AppCompatActivity {
         brandVal = brand.getSelectedItemPosition();
         colorVal = color.getSelectedItemPosition();
 
-        Car c = new Car(photo, plateVal, brandVal, modelVal, colorVal, priceVal);
-        c.save();
+        if(validate()){
 
-        Context context = getApplicationContext();
-        int duration = Toast.LENGTH_SHORT;
+            Car c = new Car(photo, plateVal, brandVal, modelVal, colorVal, priceVal);
+            c.save();
 
-        Toast toast = Toast.makeText(context, "Ok", duration);
-        toast.show();
+            Context context = getApplicationContext();
+            int duration = Toast.LENGTH_SHORT;
 
-        clear();
+            Toast toast = Toast.makeText(context, "Ok", duration);
+            toast.show();
+
+            clear();
+        }else {
+            if (plateVal.trim().length() <= 0 ) {
+                plate.setError("Error");
+            } else {
+                price.setError("Error");
+            }
+        }
+
     }
 
     public void  clear (){
@@ -88,5 +98,19 @@ public class add_car extends AppCompatActivity {
 
     public void clean(View v){
         clear();
+    }
+
+
+    public boolean validate(){
+        String plateVal = plate.getText().toString();
+        String priceVal = price.getText().toString();
+
+        plate.setError(null);
+        price.setError(null);
+
+        if (plateVal.trim().length() > 0 && priceVal.trim().length() > 0  ) {
+            return true;
+        }
+        return false;
     }
 }
