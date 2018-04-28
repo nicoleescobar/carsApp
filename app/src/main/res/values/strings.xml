@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">CarsApp</string>
+    <string name="add_car">Agregar Auto</string>
+    <string name="plate">Placa</string>
+    <string name="brand">Marca</string>
+    <string name="year">Año</string>
+    <string name="color">Color</string>
+    <string name="price">Precio</string>
+    <string name="add">Guardar</string>
+    <string name="clean">Limpiar</string>
+    <string name="model">Modelo</string>
+    <string name="carsListOption">Listar Autos</string>
+
+    <array name="options">
+        <item>@string/add_car</item>
+        <item>@string/carsListOption</item>
+    </array>
+
+    <string name="white">Blanco</string>
+    <string name="black">Negro</string>
+    <string name="blue">Azul</string>
+    <string name="red">Rojo</string>
+    <string name="yellow">Amarillo</string>
+
+    <array name="colors">
+        <item>@string/white</item>
+        <item>@string/black</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/yellow</item>
+    </array>
+
+    <string name="y2010" translatable="false">2010</string>
+    <string name="y2011" translatable="false">2011</string>
+    <string name="y2012" translatable="false">2012</string>
+    <string name="y2013" translatable="false">2013</string>
+    <string name="y2014" translatable="false">2014</string>
+    <string name="y2015" translatable="false">2015</string>
+    <string name="y2016" translatable="false">2016</string>
+    <string name="y2017" translatable="false">2017</string>
+    <string name="y2018" translatable="false">2018</string>
+
+    <array name="years">
+        <item>@string/y2010</item>
+        <item>@string/y2011</item>
+        <item>@string/y2012</item>
+        <item>@string/y2013</item>
+        <item>@string/y2014</item>
+        <item>@string/y2015</item>
+        <item>@string/y2016</item>
+        <item>@string/y2017</item>
+        <item>@string/y2018</item>
+    </array>
+
+    <string name="mazda" translatable="false">Mazda</string>
+    <string name="nissan" translatable="false">Nissan</string>
+    <string name="toyota" translatable="false">Toyota</string>
+    <string name="audi" translatable="false">Audi</string>
+    <string name="kia" translatable="false">Kia</string>
+    <string name="renault" translatable="false">Renault</string>
+    <string name="mini" translatable="false">MiniCooper</string>
+    <string name="mercedes" translatable="false">Mercedes-Benz</string>
+    <string name="ferrari" translatable="false">Ferrari</string>
+
+    <array name="brands">
+        <item>@string/mazda</item>
+        <item>@string/nissan</item>
+        <item>@string/toyota</item>
+        <item>@string/audi</item>
+        <item>@string/kia</item>
+        <item>@string/renault</item>
+        <item>@string/mini</item>
+        <item>@string/mercedes</item>
+        <item>@string/ferrari</item>
+    </array>
+</resources>

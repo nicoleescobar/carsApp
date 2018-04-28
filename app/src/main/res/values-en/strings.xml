@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarsApp</string>
+    <string name="add_car">Add Car</string>
+    <string name="plate">Plate</string>
+    <string name="brand">Brand</string>
+    <string name="year">Year</string>
+    <string name="color">Color</string>
+    <string name="price">Price</string>
+    <string name="add">Save</string>
+    <string name="clean">Clean</string>
+    <string name="model">Model</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+</resources>
